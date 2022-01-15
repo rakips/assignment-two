@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* first page - main content design start */
+
+/* heading -- menu -- logo  */
+.heading{
+    margin-left: 100px;
+    margin-top: 50px; 
+    font-size: 20px;
+}
+
+
+
+.main-details{
+    width: 50%;
+    height: 270px;
+    margin-top: -150px;
+    
+   
+}
+.main-details h1{
+    font-size: 50px;
+
+}
+.main-image{
+    width: 50%;
+    margin-left: 150px;
+    
+}
+.main-image img{
+    
+    width: 440px;
+    height: 414px;
+}
+
+.main-container{
+    display: flex;
+    margin-left:100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-button{
+    background-color: #E02C6D;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 25px;
+    color: white;
+}
+.main-button a{
+    text-decoration: none;
+    color: white;
+
+}
+
+/* first page - main content design end */
