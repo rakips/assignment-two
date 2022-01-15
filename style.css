@@ -262,3 +262,61 @@ footer h5 {
     margin-top: -20px;
 }
 
+
+/* ---------------------------------- */
+/* Media Queries [Responsive Design] */
+/* ------------------------------------ */
+@media only screen and (max-width:688px ) {
+
+    body{ width:100% ;
+    }
+    .main-container{
+        
+        
+         }
+        .main-details{
+            width: 100%;
+            margin-top: 100%;
+            margin-left: -60%;
+        }
+        .main-image{
+            margin-top: -100%;
+            margin-left: -150px;
+        }
+        .main-image img{
+            height: 200px;
+            width: 200px;
+        }
+    
+
+.popular-collection{
+   
+    margin-top: 1000px;
+}
+
+        .products{
+grid-template-columns: repeat(1, 1fr);
+}
+
+.section-model{
+    flex-direction: column;
+    flex-direction: start;
+
+}
+
+.one-img {
+    width: 150%;
+    
+}
+
+.one-heading-written{
+    float: left;
+    margin-left: -100px;
+}
+footer{
+    width: 100%;
+
+}
+
+    }
+
